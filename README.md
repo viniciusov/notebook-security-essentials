@@ -19,7 +19,7 @@ With these two softwares you can **track your device** and get **whatever inform
 ## Requirements
 In addition to the above softwares, you'll need:
 - A Linux OS.
-- Pyhton3 with smtplib library.
+- Python3.
 
 ## Use at your own risk
 I'm not the owner of any previously mentioned softwares and I'm not responsible for any law infringements.
