@@ -7,6 +7,7 @@ if ( who | grep -q guest ); then
 		mkdir /tmp/$user/.config/logkeys
 		touch /tmp/$user/.config/logkeys/user.log
 		logkeys -s -m /usr/share/logkeys/keymaps/en_US_ubuntu_1204.map -o /tmp/$user/.config/logkeys/user.log #Run logkeys (Choose your keymap here!)
+        /usr/local/bin/send_email.py $user #Send notification e-mail
 	fi
 	locationmagic.sh -locate linux <TOKEN> #Replace <TOKEN> by your Token here!
 	
