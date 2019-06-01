@@ -49,8 +49,11 @@ And execute the script to install it:
 Adust the *usertest.sh* installed with your text editor (I'm using *vim* here) and **Replace the Keymap and Token by yours**:
 `sudo vim /usr/share/notebook-security-essentials/usertest.sh`
 
-Add the *usertest.sh* to the *Crontab* to execute every 5 minutes:  
-`sudo echo '*/5 * * * *' >> /etc/crontab`
-
+Open the */etc/crontab* file:
+`sudo vim /etc/crontab` (Must runt it with sudo)
+  
+Add append this line at the end of the *crontab* file:  
+`*/5 * * * * 	root 	/usr/share/notebook-security-essentials/usertest.sh`
+  
 ## Use at your own risk
 I'm not the owner of any previously mentioned softwares and I'm not responsible for any law infringements.
