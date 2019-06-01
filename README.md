@@ -18,9 +18,12 @@ If someone loggins in as a Guest, every 5 minutes you'll receive an e-mail with 
 (I don't know if this is legal, but it's very cool, right?)*
 
 ## Installation
-First of all, you have to clone the [location-magic](https://github.com/unwiredlabs/location-magic) repo (or download as ZIP) and follow its instructions to install it. After installing it, you must register your device here: https://locationmagic.org/#how-it-works.
+First of all, you have to clone the [location-magic](https://github.com/unwiredlabs/location-magic) repo (or download as ZIP) and follow the instructions to install it. After installing it, you must register your device here: https://locationmagic.org/#how-it-works. Keep the TOKEN number you'll receive to further use it.
 
-After that, clone the [logkeys](https://github.com/kernc/logkeys) repo (or download as ZIP)...
+After that, clone the [logkeys](https://github.com/kernc/logkeys) repo (or download as ZIP) and follow the installation notes on the page to install it.
+
+As a suggestion, before proceeding you can activate these two softwares in your device to test if they are working properly.
+If everything is working just fine, now it's time to prepare yoir device...
 
 ## Requirements
 In addition to the above softwares, you'll need:
