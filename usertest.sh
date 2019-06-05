@@ -6,10 +6,10 @@ if ( who | grep -q guest ); then
 		logkeys -k
 		mkdir /tmp/$user/.config/logkeys
 		touch /tmp/$user/.config/logkeys/user.log
-		logkeys -s -m /usr/share/logkeys/keymaps/en_US_ubuntu_1204.map -o /tmp/$user/.config/logkeys/user.log #Run logkeys (Choose your keymap here!)
+		logkeys -s -m /usr/share/notebook-security-essentials/keymaps/en_US_ubuntu_1204.map -o /tmp/$user/.config/logkeys/user.log #Run logkeys (Choose your keymap here!)
     fi	
 	locationmagic.sh -locate linux <TOKEN> #Replace <TOKEN> by your Token here!
-	/usr/local/bin/send_email.py $user #Send notification e-mail
+	/usr/share/notebook-security-essentials/send_email.py $user #Send notification e-mail
 	
 	#For testing purposes enable below lines (if enabled guest user can access log file on Desktop)	
 	#cp /tmp/$user/.config/logkeys/user.log /tmp/$user/Desktop
