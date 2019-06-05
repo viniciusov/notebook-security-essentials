@@ -49,10 +49,21 @@ And execute the script to install it:
 Adust the *usertest.sh* installed with your text editor (I'm using *vim* here) and **Replace the Keymap and Token by yours**:
 `sudo vim /usr/share/notebook-security-essentials/usertest.sh`
 
+Now it's time to declare how the e-mail will be sent to you.
+I suggest to create a new account for this service because you'll have to hardcode the e-mail password, so it's not a good idea to use your main e-mail...
+
+Edit the file *send_email.py*, inserting your *username*, *password*, *servername*, *port* and *destination* (where the e-mail should send to):
+`sudo vim /usr/share/notebook-security-essentials/send_email.py`
+
+For this file, you will need to provide some SMTP outgoing configuration. Check on the internet about the SMTP configuration to your specific webmail server (**TLS encryption is required**).  
+If you are using *Hotmail*, *Msn* or *Outlook.com* (like I'm) here are the details:
+>servername = "smtp.office365.com"  
+>port = 587  
+
 Open the */etc/crontab* file:
-`sudo vim /etc/crontab` (Must runt it with sudo)
+`sudo vim /etc/crontab` (Must run it with sudo)
   
-Add append this line at the end of the *crontab* file:  
+Add append this line at the end of the *crontab* file (I'm using a time interval of 5 minutes, but you can define another interval here):  
 `*/5 * * * * 	root 	/usr/share/notebook-security-essentials/usertest.sh`
   
 ## Use at your own risk
