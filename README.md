@@ -63,7 +63,7 @@ If you are using *Hotmail*, *Msn* or *Outlook.com* (like I'm) here are the detai
 Open the */etc/crontab* file:  
 `sudo vim /etc/crontab` (Must run it with sudo)
   
-Add append this line at the end of the *crontab* file (I'm using a time interval of 5 minutes, but you can define another interval here):  
+Append this line at the end of the *crontab* file (I'm using a time interval of 5 minutes, but you can define another interval here):  
 `*/5 * * * * 	root 	/usr/share/notebook-security-essentials/usertest.sh`
   
 ## Use at your own risk
