@@ -60,7 +60,7 @@ If you are using *Hotmail*, *Msn* or *Outlook.com* (like I'm) here are the detai
 >servername = "smtp.office365.com"  
 >port = 587  
 
-Open the */etc/crontab* file:
+Open the */etc/crontab* file:  
 `sudo vim /etc/crontab` (Must run it with sudo)
   
 Add append this line at the end of the *crontab* file (I'm using a time interval of 5 minutes, but you can define another interval here):  
