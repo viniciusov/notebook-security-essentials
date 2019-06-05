@@ -52,7 +52,7 @@ Adust the *usertest.sh* installed with your text editor (I'm using *vim* here) a
 Now it's time to declare how the e-mail will be sent to you.
 I suggest to create a new account for this service because you'll have to hardcode the e-mail password, so it's not a good idea to use your main e-mail...
 
-Edit the file *send_email.py*, inserting your *username*, *password*, *servername*, *port* and *destination* (where the e-mail should send to):
+Edit the file *send_email.py*, inserting your *username*, *password*, *servername*, *port* and *destination* (where the e-mail should send to):  
 `sudo vim /usr/share/notebook-security-essentials/send_email.py`
 
 For this file, you will need to provide some SMTP outgoing configuration. Check on the internet about the SMTP configuration to your specific webmail server (**TLS encryption is required**).  
