@@ -64,7 +64,7 @@ Open the */etc/crontab* file:
 `sudo vim /etc/crontab` (Must run it with sudo)
   
 Append this line at the end of the *crontab* file (I'm using a time interval of 5 minutes, but you can define another interval here):  
-`*/5 * * * * 	root 	/usr/share/notebook-security-essentials/usertest.sh`
+`*/5 *  * * * 	root 	/usr/share/notebook-security-essentials/usertest.sh`
   
 ## Use at your own risk
 I'm not the owner of any previously mentioned softwares and I'm not responsible for any law infringements.
