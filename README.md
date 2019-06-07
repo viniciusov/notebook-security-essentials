@@ -46,7 +46,7 @@ Go to the directory:
 And execute the script to install it:  
 `./install.sh`
 
-Adust the *usertest.sh* installed with your text editor (I'm using *vim* here) and **Replace the Keymap and Token by yours**:
+Adust the *usertest.sh* installed with your text editor (I'm using *vim* here) and **Replace the Keymap and Token by yours**:  
 `sudo vim /usr/share/notebook-security-essentials/usertest.sh`
 
 Now it's time to declare how the e-mail will be sent to you.
