@@ -68,3 +68,6 @@ Append this line at the end of the *crontab* file (I'm using a time interval of 
   
 ## Use at your own risk
 I'm not the owner of any previously mentioned softwares and I'm not responsible for any law infringements.
+
+## Contact
+If you have any doubt, suggestions or want to contact me, use my email viniciusov@hotmail.com.
