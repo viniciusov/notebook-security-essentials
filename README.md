@@ -35,7 +35,8 @@ The notebook-security-essentials uses the *Ubuntu keymap* by default, but you ca
 If everything is working just fine, now it's time to prepare your device...
 
 Check if your Operational System require a password for your user login and if it already allow users login as Guests without password.  
-If not, you must set a password for you and **Allow Guest Users** (check your OS documentation if you don't know how to do it).
+If not, you must set a password for you and **Allow Guest Session** (check your OS documentation if you don't know how to do it).  
+*Currently it is working fine with Linux Mint Mate (lightdm).*
 
 Now, clone this repository:  
 `git clone https://github.com/viniciusov/notebook-security-essentials.git`
@@ -71,3 +72,6 @@ I'm not the owner of any previously mentioned softwares and I'm not responsible 
 
 ## Contact
 If you have any doubt, suggestions or want to contact me, use my email viniciusov@hotmail.com.
+
+## TODO
+- Take a webcam shot and send it by e-mail
