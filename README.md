@@ -73,5 +73,5 @@ I'm not the owner of any previously mentioned softwares and I'm not responsible 
 ## Contact
 If you have any doubt, suggestions or want to contact me, use my email viniciusov@hotmail.com.
 
-## TODO
+## To-do
 Take a webcam shot and send it by e-mail.
