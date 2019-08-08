@@ -34,7 +34,7 @@ The notebook-security-essentials uses the *Ubuntu keymap* by default, but you ca
 
 If everything is working just fine, now it's time to prepare your device...
 
-Check if your Operational System require a password for your user login and if it already allow users login as Guests without password.  
+Check if your Operational System already allows users login as Guests without password and if the Guest session is automatically destroyed after the logout (files removed).   
 If not, you must set a password for you and **Allow Guest Session** (check your OS documentation if you don't know how to do it).  
 *Currently it is working fine with Linux Mint Mate (lightdm).*
 
